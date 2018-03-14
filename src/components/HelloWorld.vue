@@ -86,9 +86,10 @@
 <script>
 export default {
   name: 'HelloWorld',
+  
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Login'
     }
   }
 }
@@ -109,5 +110,8 @@ li {
 }
 a {
   color: #42b983;
+}
+body {
+  background-color: blue
 }
 </style>
